@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<!-- Change text in <h2> and <p> element --> 
+<h2 id="demo2">What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "Header 2, the best of both worlds."'>Change h2</button>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Greetings. It seems I have been summoned."'>Change paragraph</button>
+
+<br><br><hr><br><br>
+
+<!-- Chaning the image in <img> element-->
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+<br><br><br><br>
+<button onclick="document.getElementById('sunny').src='sunny.jpg'">Let it shine!</button>
+
+<img id="sunny" src="rainy.jpg" style="width:250px">
+
+<button onclick="document.getElementById('sunny').src='rainy.jpg'">Let it rain..</button>
+
+<br><br><hr><br><br>
+
+<!-- Changing the style of an HTML Element -->
+
+<p id="demo3">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demo3').style.fontSize='35px'">Change fontSize!</button>
+<button type="button" onclick="document.getElementById('demo3').style.color='green'">Change color!</button>
+<button type="button" onclick="document.getElementById('demo3').style.transform='scale(0.7)'">Change scale!</button>
+<button type="button" onclick="document.getElementById('demo3').style.borderBlock='4px dotted blue'">Add border!</button>
+
+<button type="button" onclick="document.getElementById('demo3').style.display='none'">Hide paragraph</button>
+<button type="button" onclick="document.getElementById('demo3').style.display='block'">Show paragraph</button>
+
+</body>
+</html>
