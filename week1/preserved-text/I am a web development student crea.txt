@@ -1,0 +1,61 @@
+I am a web development student creating a website for a class project. Act as my HTML and CSS Coding assistant and follow the requirements below carefully.
+
+My website topic is: Hobby or interest. 
+
+Purpose: I want this website to act as a place to put my art and use as a portfolio
+
+Intended audience: Private clients and art buyers
+
+Include the following content: About Page, Gallery for artwork, A shop section, Contact Information, and a Process section 
+
+The about page should include information about the artist like how long they've been creating art, their inspirations, and goals. You can use a list for the goals
+
+The Gallery should show what year a project has been created and the medium.
+
+The shop section should contain the prices of whatever it is the client wants, visuals that match with the prices and transparent purchasing terms. 
+
+Contact information should include a form for the client or art buyers to fill out that gets sent to the website owner.
+
+Process section should provide an information on how each work is created like tools and methods.
+
+
+The AI SHOULD NOT decide on what images should be added and what represents the creators skill level. And should not decide the prices, commercial rights or client contract boundaries
+
+
+Technology: Create the website using HTML5 and CSS. Do not use Java script, frameworks or libraries. 
+
+Required HTML5 Structure:
+
+Begin with <!DOCTYPE html>, use <html lang="en">, include <meta charset="UTF-8">,
+include <meta name="viewport" content="width=device-width, initial-scale=1.0">, and
+include a meaningful <title>.
+
+Approved HTML Tags:
+
+Use only these HTML tags: <html>, <head>, <meta>, <title>, <body>, <link>, <style>,
+<header>, <nav>, <main>, <section>, <article>, <footer>, <div>, <span>, <h1>-<h6>,
+<p>, <strong>, <em>, <br>, <hr>, <blockquote>, <q>, <abbr>, <sub>, <sup>, <ul>,
+<ol>, <li>, <a>, <img>, <table>, <tr>, <th>, <td>, <caption>, <form>, <label>, <input>,
+<textarea>, <select>, <option>, <fieldset>, <legend>, <button>. HTML comments are
+allowed.
+
+HTML Elements You Expect to Use
+[ ] header [ ] nav [ ] main [ ] section [ ] article [ ] footer [ ] div [ ] span
+[ ] headings [ ] paragraphs [ ] lists [ ] links [ ] images [ ] table [ ] form [ ] quotation [ ]
+comments
+
+HTML Attributes:
+
+You may use valid HTML attributes that are appropriate for the approved HTML elements. Do
+not use JavaScript event attributes.
+
+HTML Quality:
+
+Use semantic HTML appropriately, logical headings, meaningful links, useful alt text for
+images, correct labels for forms, correct table structure, proper nesting, and readable
+indentation.
+
+Code Readability:
+
+Write the code so a beginning web development student can understand it. Avoid unnecessary
+complexity and include a few useful comments identifying major areas of the page.

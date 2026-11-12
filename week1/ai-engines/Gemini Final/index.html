@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Portfolio & Gallery</title>
+    <!-- LINK TO EXTERNAL CSS FILE -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- SITE HEADER & NAVIGATION -->
+    <header>
+        <h1>[Your Name / Studio Name] Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <h2>About the Artist</h2>
+            <div class="artist-bio">
+                <p>Welcome! I have been creating visual art for <strong>[X] years</strong>, focusing on expressiveness and technique[cite: 1]. My artistic vision is heavily inspired by <em>[Insert Inspirations, e.g., natural landscapes, modern architecture, historical portraits]</em>[cite: 1].</p>
+                <br>
+                <p>My current artistic goals include:</p>
+                <ul class="goals-list">
+                    <li>Expanding my original portfolio with new mediums[cite: 1].</li>
+                    <li>Collaborating with private buyers on custom commissions[cite: 1].</li>
+                    <li>Exhibiting works in local galleries and modern spaces[cite: 1].</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- GALLERY SECTION -->
+        <section id="gallery">
+            <h2>Artwork Gallery</h2>
+            <div class="gallery-grid">
+                
+                <article class="gallery-item">
+                    <!-- Replace image source with your artwork file path -->
+                    <img src="https://via.placeholder.com/300x200" alt="Description of Artwork 1">
+                    <h3>Artwork Title 1</h3>
+                    <p><strong>Year:</strong> 2024</p>
+                    <p><strong>Medium:</strong> Oil on Canvas</p>
+                </article>
+
+                <article class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Description of Artwork 2">
+                    <h3>Artwork Title 2</h3>
+                    <p><strong>Year:</strong> 2025</p>
+                    <p><strong>Medium:</strong> Digital Painting</p>
+                </article>
+
+                <article class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Description of Artwork 3">
+                    <h3>Artwork Title 3</h3>
+                    <p><strong>Year:</strong> 2026</p>
+                    <p><strong>Medium:</strong> Watercolor & Ink</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- PROCESS SECTION -->
+        <section id="process">
+            <h2>Creative Process</h2>
+            
+            <article>
+                <h3>Tools & Materials</h3>
+                <p>Depending on the piece, I work with high-grade oil paints, archival heavy-weight watercolor paper, or digital drawing tablets[cite: 1]. Precision brushes and pigment longevity are central to my physical works[cite: 1].</p>
+            </article>
+
+            <article>
+                <h3>Method & Workflow</h3>
+                <p>Each artwork begins with extensive thumbnail sketches and value studies[cite: 1]. Once the composition is finalized, layers are built up gradually—starting with broad tonal underpaintings followed by detailed surface work[cite: 1].</p>
+            </article>
+        </section>
+
+        <!-- SHOP SECTION -->
+        <section id="shop">
+            <h2>Shop & Commissions</h2>
+            
+            <table>
+                <caption>Available Artworks & Base Commission Rates</caption>
+                <tr>
+                    <th>Visual</th>
+                    <th>Item / Service</th>
+                    <th>Medium</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td><img src="https://via.placeholder.com/80" alt="Thumbnail 1" class="shop-img-preview"></td>
+                    <td>Original Canvas #1</td>
+                    <td>Oil Paint</td>
+                    <td>$[Insert Price]</td>
+                </tr>
+                <tr>
+                    <td><img src="https://via.placeholder.com/80" alt="Thumbnail 2" class="shop-img-preview"></td>
+                    <td>Custom Portrait Commission</td>
+                    <td>Digital / Print</td>
+                    <td>$[Insert Starting Price]</td>
+                </tr>
+            </table>
+
+            <div class="purchasing-terms">
+                <h3>Transparent Purchasing Terms</h3>
+                <p><strong>Payment Terms:</strong> [Insert your payment terms here, e.g., 50% deposit required upfront for commissions][cite: 1].</p>
+                <p><strong>Shipping & Delivery:</strong> [Insert shipping details or digital delivery timeline][cite: 1].</p>
+                <p><strong>Commercial & Usage Rights:</strong> [Insert client usage boundaries, rights, or licensing rules][cite: 1].</p>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>If you are a private client or art buyer interested in commissions or original works, please fill out the form below[cite: 1].</p>
+            <br>
+            
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Client Inquiry Form</legend>
+
+                    <div class="form-group">
+                        <label for="client-name">Full Name:</label>
+                        <input type="text" id="client-name" name="client_name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="client-email">Email Address:</label>
+                        <input type="email" id="client-email" name="client_email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inquiry-type">Inquiry Type:</label>
+                        <select id="inquiry-type" name="inquiry_type">
+                            <option value="commission">Custom Commission</option>
+                            <option value="purchase">Original Piece Purchase</option>
+                            <option value="general">General Question</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message / Details:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit">Send Inquiry</button>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 [Your Name]. All rights reserved[cite: 1].</p>
+    </footer>
+
+</body>
+</html>
