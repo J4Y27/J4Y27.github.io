@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Portfolio | Original Artwork</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Site header and navigation -->
+    <header>
+        <div class="header-content">
+            <p class="eyebrow">Artist Portfolio</p>
+            <h1>Your Artist Name</h1>
+            <p class="tagline">Original work, creative process, and artwork available for private clients and art buyers.</p>
+
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- About section -->
+        <section id="about" class="section-card">
+            <p class="section-label">01 / About</p>
+            <h2>About the Artist</h2>
+            <article>
+                <p>
+                    Use this space to introduce yourself, including how long you have been creating art,
+                    what inspires your work, and what you hope to accomplish as an artist.
+                </p>
+
+                <h3>Artist Goals</h3>
+                <ul class="goals-list">
+                    <li>Add your first artistic goal here.</li>
+                    <li>Add your second artistic goal here.</li>
+                    <li>Add your third artistic goal here.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Artwork gallery -->
+        <section id="gallery" class="section-card">
+            <p class="section-label">02 / Gallery</p>
+            <h2>Selected Artwork</h2>
+            <p>Replace each stand-in image path with your own artwork. The alt text should be updated to describe the artwork you choose.</p>
+
+            <div class="art-grid">
+                <article class="art-card">
+                    <img src="images/artwork-placeholder-1.jpg" alt="Placeholder for artwork 1; replace with a description of your artwork">
+                    <h3>Artwork Title One</h3>
+                    <p><strong>Year:</strong> Add year</p>
+                    <p><strong>Medium:</strong> Add medium</p>
+                </article>
+
+                <article class="art-card">
+                    <img src="images/artwork-placeholder-2.jpg" alt="Placeholder for artwork 2; replace with a description of your artwork">
+                    <h3>Artwork Title Two</h3>
+                    <p><strong>Year:</strong> Add year</p>
+                    <p><strong>Medium:</strong> Add medium</p>
+                </article>
+
+                <article class="art-card">
+                    <img src="images/artwork-placeholder-3.jpg" alt="Placeholder for artwork 3; replace with a description of your artwork">
+                    <h3>Artwork Title Three</h3>
+                    <p><strong>Year:</strong> Add year</p>
+                    <p><strong>Medium:</strong> Add medium</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Shop section -->
+        <section id="shop" class="section-card">
+            <p class="section-label">03 / Shop</p>
+            <h2>Available Work</h2>
+            <p>Keep your own prices, purchasing terms, commercial rights, and client contract boundaries here.</p>
+
+            <table>
+                <caption>Artwork available for purchase</caption>
+                <tr>
+                    <th>Artwork</th>
+                    <th>Preview</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Artwork Title One</td>
+                    <td><img class="shop-image" src="images/shop-placeholder-1.jpg" alt="Placeholder preview for artwork title one"></td>
+                    <td>Add your price</td>
+                </tr>
+                <tr>
+                    <td>Artwork Title Two</td>
+                    <td><img class="shop-image" src="images/shop-placeholder-2.jpg" alt="Placeholder preview for artwork title two"></td>
+                    <td>Add your price</td>
+                </tr>
+            </table>
+
+            <article class="terms">
+                <h3>Purchasing Terms</h3>
+                <p>Add your own transparent purchasing, payment, shipping, commercial-rights, and contract terms here.</p>
+            </article>
+        </section>
+
+        <!-- Process section -->
+        <section id="process" class="section-card">
+            <p class="section-label">04 / Process</p>
+            <h2>Creative Process</h2>
+            <div class="process-grid">
+                <article>
+                    <span class="step-number">01</span>
+                    <h3>Planning</h3>
+                    <p>Describe how you develop ideas, gather references, or sketch before beginning a work.</p>
+                </article>
+                <article>
+                    <span class="step-number">02</span>
+                    <h3>Tools &amp; Methods</h3>
+                    <p>Describe the tools, materials, and methods you actually use to create your artwork.</p>
+                </article>
+                <article>
+                    <span class="step-number">03</span>
+                    <h3>Finishing</h3>
+                    <p>Describe how you refine, prepare, or present a completed piece.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="section-card contact-section">
+            <p class="section-label">05 / Contact</p>
+            <h2>Contact the Artist</h2>
+            <p>Private clients and art buyers can use this form to send an inquiry to the website owner.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Artwork Inquiry</legend>
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="interest">Reason for Contact</label>
+                    <select id="interest" name="interest">
+                        <option value="purchase">Artwork Purchase</option>
+                        <option value="client">Private Client Inquiry</option>
+                        <option value="general">General Question</option>
+                    </select>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+
+                    <button type="submit">Send Inquiry</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Your Artist Name. Artist portfolio.</p>
+        <p><a href="#about">Return to top</a></p>
+    </footer>
+</body>
+</html>

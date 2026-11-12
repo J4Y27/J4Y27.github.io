@@ -1,0 +1,105 @@
+/* BASIC RESET */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #2c2c2c;
+    background-color: #faf8f5;
+}
+
+/* HEADER & NAVIGATION */
+header {
+    background-color: #111111;
+    color: #f4f1ea;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 3px solid #c5a059;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+nav a {
+    color: #d8d0c5;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c5a059;
+}
+
+/* MAIN CONTENT & SECTION LAYOUT */
+main {
+    width: 900px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    padding: 32px;
+    border: 1px solid #e2ded8;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: normal;
+    border-bottom: 2px solid #c5a059;
+    padding-bottom: 8px;
+    margin-bottom: 24px;
+    color: #111111;
+}
+
+/* ABOUT SECTION */
+.artist-bio p {
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+.goals-list {
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.goals-list li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+/* GALLERY SECTION */
+.gallery-grid {
+    text-align: center;
+}
+
+.gallery-item {
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    text-align: left;
+    margin: 10px;
+    border: 1px solid #e8e3dc;
+    padding: 16px
