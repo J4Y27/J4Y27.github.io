@@ -1,0 +1,117 @@
+/* Style the header */
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+
+.nav-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: start;
+  font-size: 18px;
+}
+
+.nav-container ul {
+	justify-self: center;
+}
+
+.section-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-content:center;
+  align-content: start;
+  place-self: start stretch;
+  padding: 20px;
+}
+.img-container img{
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	column-gap: 0px;
+	row-gap: 0px;
+	justify-content: start;
+	align-content: start;
+}
+.img-container{
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-rows: auto;
+	column-gap: 0px;
+	row-gap: 0px;
+	justify-content: start;
+	align-content: start;
+}
+
+header{
+    font-family: "Arvo", serif;
+    background-color: darkgoldenrod;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: khaki;
+}
+
+body{
+  background-color: khaki;
+  margin: 5px;
+}
+
+article {
+  font-family: "Arvo", serif;
+  padding: 20px;
+  width: 70%;
+  background-color: darkgoldenrod;
+  
+}
+
+aside {
+	font-family: "Arvo", serif;
+	padding: 20px;
+	width: fit-content;
+	background-color: darkgoldenrod;
+	padding: 40px;
+	grid-column: 3/4;
+	grid-row: 21/2;
+	justify-self: center;
+	align-self: start;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  font-family: "Arvo", serif;
+  background-color: darkgoldenrod;
+  padding: 10px;
+  text-align: center;
+  color: khaki;
+}
+
+nav {
+  font-family: "Arvo", serif;
+  /*margin-left: 15px;*/
+  width: 100%;
+  background: goldenrod;
+  padding: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 5px;
+}
+
+img{
+  padding: 20px;
+}
